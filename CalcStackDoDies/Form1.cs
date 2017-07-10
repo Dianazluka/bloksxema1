@@ -14,26 +14,8 @@ namespace CalcStackDoDies
         {
             double first = Convert.ToDouble(Input1.Text);
             double second = Convert.ToDouble(Input2.Text);
-            double result;
-
-            switch (((Button)sender).Name)
-            {
-                case "Plus":
-                    result = first + second;
-                    break;
-                case "Minus":
-                    result = first - second;
-                    break;
-                case "Mul":
-                    result = first * second;
-                    break;
-                case "Div":
-                    result = first / second;
-                    break;
-                default:
-                    throw new Exception("Неизвестная операция");
-            }
-
+            ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator(((Button) sender).Name);
+            double result = calculator.Calculate(first, second);
             Result.Text = Convert.ToString(result);
         }
     }
