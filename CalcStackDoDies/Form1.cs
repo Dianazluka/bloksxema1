@@ -48,5 +48,24 @@ namespace CalcStackDoDies
             double result = first / second;
             Result.Text = Convert.ToString(result);
         }
+
+        private void Button_Click(object sender, EventArgs e)
+        {
+            double first = Convert.ToDouble(Input1.Text);
+            double second = Convert.ToDouble(Input2.Text);
+            double result;
+
+            switch (((Button)sender).Name)
+            {
+                case "Plus":
+                    result = first + second;
+                    Result.Text = Convert.ToString(result);
+                    break;
+                default:
+                    throw new Exception("Неизвестная операция");
+            }
+
+            Result.Text = Convert.ToString(result);
+        }
     }
 }
