@@ -1,4 +1,4 @@
-﻿namespace CalcStackDoDies
+﻿namespace CalcStackDoDies.TwoArgument
 {
     public class MinusCalc : ITwoArgumentsCalculator
     {

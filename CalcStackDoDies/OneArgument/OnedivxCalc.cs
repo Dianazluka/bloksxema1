@@ -1,7 +1,10 @@
-﻿namespace CalcStackDoDies
+﻿namespace CalcStackDoDies.OneArgument
 {
-    public class OnedivxCalc
+    public class OnedivxCalc : IOneArgumentsCalculator
     {
-        
+        public double Calculate(double first)
+        {
+            return 1/first;
+        }
     }
 }

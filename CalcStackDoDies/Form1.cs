@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using CalcStackDoDies.TwoArgument;
 
 namespace CalcStackDoDies
 {
@@ -17,6 +18,16 @@ namespace CalcStackDoDies
             ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator(((Button) sender).Name);
             double result = calculator.Calculate(first, second);
             Result.Text = Convert.ToString(result);
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace CalcStackDoDies.OneArgument
+﻿namespace CalcStackDoDies.OneArgument2
 {
     public interface IOneArgumentsCalculator
     {

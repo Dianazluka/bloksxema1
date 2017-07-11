@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CalcStackDoDies
+namespace CalcStackDoDies.OneArgument
 {
     public class TwoinxCalc : IOneArgumentsCalculator
     {
@@ -8,5 +8,5 @@ namespace CalcStackDoDies
         {
             return Math.Pow(2, first);
         }
-
+    }
 }
