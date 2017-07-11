@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CalcStackDoDies.OneArgument2
+namespace CalcStackDoDies.OneArgument
 {
     public class log10Calc : OneArgument.IOneArgumentsCalculator
     {

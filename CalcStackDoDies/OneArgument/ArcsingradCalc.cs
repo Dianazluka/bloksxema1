@@ -1,13 +1,12 @@
-﻿namespace CalcStackDoDies.OneArgument2
+﻿namespace CalcStackDoDies.OneArgument
 {
-    public class SingradCalc : OneArgument.IOneArgumentsCalculator
+    public class ArcsingradCalc : IOneArgumentsCalculator
     {
         public double Calculate(double first)
         {
             var converter = new GradToRadConverter();
-            var calculator = new SingradCalc();
+            var calculator = new ArcsinCalc();
             return calculator.Calculate(converter.Calculate(first));
         }
     }
-
 }

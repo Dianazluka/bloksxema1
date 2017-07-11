@@ -1,16 +1,13 @@
-﻿using System;
-
-namespace CalcStackDoDies.OneArgument2
+﻿namespace CalcStackDoDies.OneArgument
 {
-    public class CosgradClas : OneArgument.IOneArgumentsCalculator
+    public class SingradCalc : OneArgument.IOneArgumentsCalculator
     {
         public double Calculate(double first)
         {
             var converter = new GradToRadConverter();
-            var calculator = new CosgradClas();
+            var calculator = new SingradCalc();
             return calculator.Calculate(converter.Calculate(first));
         }
     }
-}
 
-   
+}

@@ -1,4 +1,4 @@
-﻿namespace CalcStackDoDies.OneArgument2
+﻿namespace CalcStackDoDies.OneArgument
 {
     public class MinusCalc : OneArgument.IOneArgumentsCalculator
     {
@@ -7,5 +7,4 @@
             return -first;
         }
     }
-
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using CalcStackDoDies.OneArgument;
 
 namespace CalcStackDoDies.OneArgument
 {
@@ -28,7 +29,27 @@ namespace CalcStackDoDies.OneArgument
                     return new ModulCalc();
                 case "Onedivx":
                     return new OnedivxCalc();
-               default:
+                case "Arccos":
+                    return new ArccosCalc();
+                case "Arcsin":
+                    return new ArcsinCalc();
+                case "Arcsingrad":
+                    return new ArcsingradCalc();
+                case "Arctan":
+                    return new ArctanCalc();
+                case "Cosgrad":
+                    return new CosgradClas();
+                case "Log10":
+                    return new log10Calc();
+                case "Log2":
+                    return new Log2Calc();
+                case "Mimus":
+                    return new MinusCalc();
+                case "Singrad":
+                    return new SingradCalc();
+                case "Teninx":
+                    return new TwoinxCalc();
+                default:
                     throw new Exception("Неизвестная операция");
             }
         }
