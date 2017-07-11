@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace CalcStackDoDies
+﻿namespace CalcStackDoDies
 {
     public class SummCalc : ITwoArgumentsCalculator
     {
