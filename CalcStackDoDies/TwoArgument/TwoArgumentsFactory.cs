@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CalcStackDoDies
+namespace CalcStackDoDies.TwoArgument
 {
     public static class TwoArgumentsFactory
     {
