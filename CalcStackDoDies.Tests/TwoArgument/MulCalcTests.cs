@@ -6,13 +6,14 @@ namespace CalcStackDoDies.Tests.TwoArgument
     [TestFixture]
     public class MulCalcTests
     {
-        public void MulCalcTest()
+        [TestCase(4, 2, 8)]
+        [TestCase(8, 2, 16)]
+        [TestCase(40, 0.1, 4)]
+        public void MulCalcTest(double first, double second, double expected)
         {
-            double first = 3;
-            double second = 2;
             var calc = new MulCalc();
             double result = calc.Calculate(first, second);
-            Assert.AreEqual(1, result);
+            Assert.AreEqual(expected, result);
         }
     }
 }

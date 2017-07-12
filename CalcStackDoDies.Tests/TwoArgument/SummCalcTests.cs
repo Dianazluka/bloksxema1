@@ -6,13 +6,14 @@ namespace CalcStackDoDies.Tests.TwoArgument
     [TestFixture]
      public class  SummCalcTests
     {
-        public void SummCalcTest()
+        [TestCase(4, 2, 6)]
+        [TestCase(8, 2, 10)]
+        [TestCase(40, 0.1, 40.1)]
+        public void SummCalcTest(double first, double second, double expected)
         {
-            double first = 2;
-            double second = 2;
             var calc = new SummCalc();
             double result = calc.Calculate(first, second);
-            Assert.AreEqual(4, result);
+            Assert.AreEqual(expected, result);
         }
     }
 }

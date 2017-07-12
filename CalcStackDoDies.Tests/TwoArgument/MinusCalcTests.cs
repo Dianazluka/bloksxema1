@@ -6,13 +6,14 @@ namespace CalcStackDoDies.Tests.TwoArgument
     [TestFixture]
     public class MinusCalcTests
     {
-        public void MiusCalcTest()
+        [TestCase(4, 2, 2)]
+        [TestCase(8, 2, 6)]
+        [TestCase(40, 0.1, 39.9)]
+        public void MinusCalcTest(double first, double second, double expected)
         {
-            double first = 3;
-            double second = 2;
             var calc = new MinusCalc();
             double result = calc.Calculate(first, second);
-            Assert.AreEqual(1, result);
+            Assert.AreEqual(expected, result);
         }
     }
 }
