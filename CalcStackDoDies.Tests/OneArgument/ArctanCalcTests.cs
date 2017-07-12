@@ -5,12 +5,12 @@ using NUnit.Framework;
 namespace CalcStackDoDies.Tests.OneArgument
 {
     [TestFixture]
-    public class AcrtanCalcTests
+    public class ArctanCalcTests
     {
         [TestCase(0, 0)]
-        [TestCase(0, Math.PI)]
+        [TestCase(-1, -Math.PI / 4)]
         [TestCase(1, Math.PI / 4)]
-        public void CosCalcTest(double first, double expected)
+        public void ArctanCalcTest(double first, double expected)
         {
             var calc = new ArctanCalc();
             double result = calc.Calculate(first);

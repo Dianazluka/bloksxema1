@@ -46,7 +46,7 @@
     <Compile Include="OneArgument\CosgradClasTests.cs" />
     <Compile Include="OneArgument\CtanCalcTests.cs" />
     <Compile Include="OneArgument\ExpCalcTests.cs" />
-    <Compile Include="OneArgument\lnCalcTests.cs" />
+    <Compile Include="OneArgument\LnCalcTests.cs" />
     <Compile Include="OneArgument\Log10CalcTests.cs" />
     <Compile Include="OneArgument\Log2CalcTests.cs" />
     <Compile Include="OneArgument\MinusxCalcTests.cs" />

@@ -5,7 +5,7 @@
         public double Calculate(double first)
         {
             var converter = new GradToRadConverter();
-            var calculator = new CosgradClas();
+            var calculator = new CosCalc();
             return calculator.Calculate(converter.Calculate(first));
         }
     }

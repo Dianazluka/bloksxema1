@@ -7,9 +7,9 @@ namespace CalcStackDoDies.Tests.OneArgument
     [TestFixture]
     public class CosCalcTests
     {
-        [TestCase(1, 0)]
-        [TestCase(-1, Math.PI)]
-        [TestCase(0, Math.PI / 2)]
+        [TestCase(0, 1)]
+        [TestCase(Math.PI, -1)]
+        [TestCase(Math.PI / 2, 0)]
         public void CosCalcTest(double first, double expected)
         {
             var calc = new CosCalc();

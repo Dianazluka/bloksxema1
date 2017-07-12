@@ -8,8 +8,8 @@ namespace CalcStackDoDies.Tests.OneArgument
     public class SinCalcTests
     {
         [TestCase(0, 0)]
-        [TestCase(0, Math.PI)]
-        [TestCase(1, Math.PI / 2)]
+        [TestCase(Math.PI / 2, 1)]
+        [TestCase(3 * Math.PI / 2, -1)]
         public void SinCalcTest(double first, double expected)
         {
             var calc = new SinCalc();

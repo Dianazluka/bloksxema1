@@ -2,7 +2,7 @@
 
 namespace CalcStackDoDies.OneArgument
 {
-    public class InCalc : IOneArgumentsCalculator
+    public class LnCalc : IOneArgumentsCalculator
     {
         public double Calculate(double first)
         {

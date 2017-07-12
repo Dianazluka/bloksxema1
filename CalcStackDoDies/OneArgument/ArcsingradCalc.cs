@@ -4,9 +4,9 @@
     {
         public double Calculate(double first)
         {
-            var converter = new GradToRadConverter();
+            var converter = new RadToGradConverter();
             var calculator = new ArcsinCalc();
-            return calculator.Calculate(converter.Calculate(first));
+            return converter.Calculate(calculator.Calculate(first));
         }
     }
 }

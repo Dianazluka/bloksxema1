@@ -7,9 +7,9 @@ namespace CalcStackDoDies.Tests.OneArgument
     [TestFixture]
     public class CtanCalcTests
     {
-        [TestCase(0, 3/2*Math.PI)]
-        [TestCase(1, Math.PI/4)]
-        [TestCase(0, Math.PI / 2)]
+        [TestCase(3 * Math.PI / 2, 0)]
+        [TestCase(Math.PI / 4, 1)]
+        [TestCase(3 * Math.PI / 4, -1)]
         public void CtanCalcTest(double first, double expected)
         {
             var calc = new CtanCalc();

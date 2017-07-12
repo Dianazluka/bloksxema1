@@ -1,6 +1,6 @@
 ﻿namespace CalcStackDoDies.OneArgument
 {
-    public class MinusCalc : OneArgument.IOneArgumentsCalculator
+    public class MinusxCalc : OneArgument.IOneArgumentsCalculator
     {
         public double Calculate(double first)
         {

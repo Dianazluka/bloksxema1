@@ -19,7 +19,7 @@ namespace CalcStackDoDies.OneArgument
                 case "Exp":
                     return new ExpCalc();
                 case "In":
-                    return new InCalc();
+                    return new LnCalc();
                 case "Sqr":
                     return new SqrCalc();
                 case "Twoinx":
@@ -39,11 +39,11 @@ namespace CalcStackDoDies.OneArgument
                 case "Cosgrad":
                     return new CosgradClas();
                 case "Log10":
-                    return new log10Calc();
+                    return new Log10Calc();
                 case "Log2":
                     return new Log2Calc();
                 case "Mimus":
-                    return new MinusCalc();
+                    return new MinusxCalc();
                 case "Singrad":
                     return new SingradCalc();
                 case "Teninx":

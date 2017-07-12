@@ -51,8 +51,9 @@
     <Compile Include="OneArgument\GradToRadConverter.cs" />
     <Compile Include="OneArgument\Log2Calc.cs" />
     <Compile Include="OneArgument\Log10Calc.cs" />
+    <Compile Include="OneArgument\RadToGradConverter.cs" />
     <Compile Include="OneArgument\TeninxCalc.cs" />
-    <Compile Include="OneArgument\MinusCalc.cs" />
+    <Compile Include="OneArgument\MinusxCalc.cs" />
     <Compile Include="OneArgument\SingradCalc.cs" />
     <Compile Include="OneArgument\CosgradClas.cs" />
     <Compile Include="OneArgument\ArcsingradCalc.cs" />
@@ -66,7 +67,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="OneArgument\InCalc.cs" />
+    <Compile Include="OneArgument\LnCalc.cs" />
     <Compile Include="OneArgument\IOneArgumentsCalculator.cs" />
     <Compile Include="TwoArgument\ITwoArgumentsCalculator.cs" />
     <Compile Include="TwoArgument\MinusCalc.cs" />

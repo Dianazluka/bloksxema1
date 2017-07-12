@@ -8,8 +8,8 @@ namespace CalcStackDoDies.Tests.OneArgument
     public class TanCalcTests
     {
         [TestCase(0, 0)]
-        [TestCase(0, Math.PI)]
-        [TestCase(1, Math.PI / 4)]
+        [TestCase(3 * Math.PI / 4, -1)]
+        [TestCase(Math.PI / 4, 1)]
         public void TanCalcTest(double first, double expected)
         {
             var calc = new TanClas();

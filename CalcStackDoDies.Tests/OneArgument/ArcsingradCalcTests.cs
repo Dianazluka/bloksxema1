@@ -7,7 +7,7 @@ namespace CalcStackDoDies.Tests.OneArgument
     public class ArcsingradCalcTests
     {
         [TestCase(0, 0)]
-        [TestCase(0, 180)]
+        [TestCase(-1, -90)]
         [TestCase(1, 90)]
         public void ArcsingradCalcTest(double first, double expected)
         {
