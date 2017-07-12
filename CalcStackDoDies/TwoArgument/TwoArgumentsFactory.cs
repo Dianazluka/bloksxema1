@@ -4,6 +4,11 @@ namespace CalcStackDoDies.TwoArgument
 {
     public static class TwoArgumentsFactory
     {
+        /// <summary>
+        /// The method returns an instance of the class ITwoArgumentsCalculator
+        /// </summary>
+        /// <param name="calculatorName">calculator name</param>
+        /// <returns></returns>
         public static ITwoArgumentsCalculator CreateCalculator(string calculatorName)
         {
             switch (calculatorName)

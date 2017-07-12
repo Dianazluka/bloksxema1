@@ -1,5 +1,4 @@
 ﻿using System;
-using CalcStackDoDies.OneArgument;
 using CalcStackDoDies.TwoArgument;
 using NUnit.Framework;
 
