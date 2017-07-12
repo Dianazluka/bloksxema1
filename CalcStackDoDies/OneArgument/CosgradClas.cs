@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace CalcStackDoDies.OneArgument
+﻿namespace CalcStackDoDies.OneArgument
 {
     public class CosgradClas : OneArgument.IOneArgumentsCalculator
     {

@@ -1,5 +1,4 @@
 ﻿using System;
-using CalcStackDoDies.OneArgument;
 
 namespace CalcStackDoDies.OneArgument
 {
