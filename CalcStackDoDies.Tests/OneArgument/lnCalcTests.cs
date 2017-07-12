@@ -1,4 +1,5 @@
-﻿using CalcStackDoDies.OneArgument;
+﻿using System;
+using CalcStackDoDies.OneArgument;
 using NUnit.Framework;
 
 namespace CalcStackDoDies.Tests.OneArgument
@@ -14,6 +15,12 @@ namespace CalcStackDoDies.Tests.OneArgument
             var calc = new LnCalc();
             double result = calc.Calculate(first);
             Assert.AreEqual(expected, result, 0.001);
+        }
+        [Test]
+        public void Againstzero()
+        {
+            var calc = new LnCalc();
+            Assert.Throws<Exception>(() => calc.Calculate(-1));
         }
     }
 }

@@ -14,6 +14,10 @@ namespace CalcStackDoDies.OneArgument
         /// <returns></returns>
         public double Calculate(double first)
         {
+            if (first <= 0)
+            {
+                throw new Exception("Логарифм от 0 невозможен.");
+            }
             return Math.Log(first, 2);
         }
     }

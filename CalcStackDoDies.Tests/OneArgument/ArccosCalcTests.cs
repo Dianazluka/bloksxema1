@@ -16,5 +16,12 @@ namespace CalcStackDoDies.Tests.OneArgument
             double result = calc.Calculate(first);
             Assert.AreEqual(expected, result, 0.001);
         }
+        [Test]
+        public void Againstone()
+        {
+            var calc = new ArccosCalc();
+            Assert.Throws<Exception>(() => calc.Calculate(-1.1));
+            Assert.Throws<Exception>(() => calc.Calculate(1.1));
+        }
     }
 }

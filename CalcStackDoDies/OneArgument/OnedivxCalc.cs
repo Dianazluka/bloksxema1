@@ -1,4 +1,6 @@
-﻿namespace CalcStackDoDies.OneArgument
+﻿using System;
+
+namespace CalcStackDoDies.OneArgument
 {
     /// <summary>
     /// Function that finds a quotient of a unit by a given number
@@ -12,7 +14,11 @@
         /// <returns></returns>
         public double Calculate(double first)
         {
-            return 1/first;
+            if (first.Equals(0))
+            {
+                throw new Exception("Деление на 0 невозможно.");
+            }
+            return 1 /first;
         }
     }
 }
