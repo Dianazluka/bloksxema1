@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OneArgumentsFactory.cs" />
     <Compile Include="OneArgument\CosgradClasTests.cs" />
     <Compile Include="OneArgument\CtanCalcTests.cs" />
     <Compile Include="OneArgument\ExpCalcTests.cs" />
@@ -64,6 +65,7 @@
     <Compile Include="OneArgument\ArctanCalcTests.cs" />
     <Compile Include="OneArgument\ArccosCalcTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TwoArgumentsFactory.cs" />
     <Compile Include="TwoArgument\DivCalcTests.cs" />
     <Compile Include="TwoArgument\MinusCalcTests.cs" />
     <Compile Include="TwoArgument\MulCalcTests.cs" />

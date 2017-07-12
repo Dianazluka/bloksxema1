@@ -1,5 +1,4 @@
-﻿using System;
-using CalcStackDoDies.OneArgument;
+﻿using CalcStackDoDies.OneArgument;
 using NUnit.Framework;
 
 namespace CalcStackDoDies.Tests.OneArgument
