@@ -65,7 +65,7 @@
             this.Plus.TabIndex = 0;
             this.Plus.Text = "+";
             this.Plus.UseVisualStyleBackColor = true;
-            this.Plus.Click += new System.EventHandler(this.Button_Click);
+            this.Plus.Click += new System.EventHandler(this.TwoArgumentButtonClick);
             // 
             // Minus
             // 
@@ -75,7 +75,7 @@
             this.Minus.TabIndex = 1;
             this.Minus.Text = "-";
             this.Minus.UseVisualStyleBackColor = true;
-            this.Minus.Click += new System.EventHandler(this.Button_Click);
+            this.Minus.Click += new System.EventHandler(this.TwoArgumentButtonClick);
             // 
             // Div
             // 
@@ -85,7 +85,7 @@
             this.Div.TabIndex = 2;
             this.Div.Text = "/";
             this.Div.UseVisualStyleBackColor = true;
-            this.Div.Click += new System.EventHandler(this.Button_Click);
+            this.Div.Click += new System.EventHandler(this.TwoArgumentButtonClick);
             // 
             // Mul
             // 
@@ -95,7 +95,7 @@
             this.Mul.TabIndex = 3;
             this.Mul.Text = "*";
             this.Mul.UseVisualStyleBackColor = true;
-            this.Mul.Click += new System.EventHandler(this.Button_Click);
+            this.Mul.Click += new System.EventHandler(this.TwoArgumentButtonClick);
             // 
             // Input2
             // 
@@ -126,6 +126,7 @@
             this.Sin.TabIndex = 7;
             this.Sin.Text = "Sin";
             this.Sin.UseVisualStyleBackColor = true;
+            this.Sin.Click += new System.EventHandler(this.OneArgumentButtonClick);
             // 
             // Cos
             // 
@@ -135,6 +136,7 @@
             this.Cos.TabIndex = 8;
             this.Cos.Text = "Cos";
             this.Cos.UseVisualStyleBackColor = true;
+            this.Cos.Click += new System.EventHandler(this.OneArgumentButtonClick);
             // 
             // Tan
             // 
@@ -144,6 +146,7 @@
             this.Tan.TabIndex = 9;
             this.Tan.Text = "Tan";
             this.Tan.UseVisualStyleBackColor = true;
+            this.Tan.Click += new System.EventHandler(this.OneArgumentButtonClick);
             // 
             // Ctan
             // 
@@ -153,6 +156,7 @@
             this.Ctan.TabIndex = 10;
             this.Ctan.Text = "Ctan";
             this.Ctan.UseVisualStyleBackColor = true;
+            this.Ctan.Click += new System.EventHandler(this.OneArgumentButtonClick);
             // 
             // Exp
             // 
@@ -162,6 +166,7 @@
             this.Exp.TabIndex = 11;
             this.Exp.Text = "Exp";
             this.Exp.UseVisualStyleBackColor = true;
+            this.Exp.Click += new System.EventHandler(this.OneArgumentButtonClick);
             // 
             // In
             // 
@@ -171,6 +176,7 @@
             this.In.TabIndex = 12;
             this.In.Text = "In";
             this.In.UseVisualStyleBackColor = true;
+            this.In.Click += new System.EventHandler(this.OneArgumentButtonClick);
             // 
             // Sqr
             // 
@@ -180,7 +186,7 @@
             this.Sqr.TabIndex = 13;
             this.Sqr.Text = "x^2";
             this.Sqr.UseVisualStyleBackColor = true;
-            this.Sqr.Click += new System.EventHandler(this.button7_Click);
+            this.Sqr.Click += new System.EventHandler(this.OneArgumentButtonClick);
             // 
             // Twoinx
             // 
@@ -190,7 +196,7 @@
             this.Twoinx.TabIndex = 14;
             this.Twoinx.Text = "2^x";
             this.Twoinx.UseVisualStyleBackColor = true;
-            this.Twoinx.Click += new System.EventHandler(this.button8_Click);
+            this.Twoinx.Click += new System.EventHandler(this.OneArgumentButtonClick);
             // 
             // Modul
             // 
@@ -200,6 +206,7 @@
             this.Modul.TabIndex = 15;
             this.Modul.Text = "|x|";
             this.Modul.UseVisualStyleBackColor = true;
+            this.Modul.Click += new System.EventHandler(this.OneArgumentButtonClick);
             // 
             // Onedivx
             // 
@@ -209,6 +216,7 @@
             this.Onedivx.TabIndex = 16;
             this.Onedivx.Text = "1\\x";
             this.Onedivx.UseVisualStyleBackColor = true;
+            this.Onedivx.Click += new System.EventHandler(this.OneArgumentButtonClick);
             // 
             // Arcsin
             // 
@@ -218,6 +226,7 @@
             this.Arcsin.TabIndex = 17;
             this.Arcsin.Text = "Arcsin";
             this.Arcsin.UseVisualStyleBackColor = true;
+            this.Arcsin.Click += new System.EventHandler(this.OneArgumentButtonClick);
             // 
             // Arccos
             // 
@@ -227,6 +236,7 @@
             this.Arccos.TabIndex = 18;
             this.Arccos.Text = "Arccos";
             this.Arccos.UseVisualStyleBackColor = true;
+            this.Arccos.Click += new System.EventHandler(this.OneArgumentButtonClick);
             // 
             // Arctan
             // 
@@ -236,6 +246,7 @@
             this.Arctan.TabIndex = 19;
             this.Arctan.Text = "Arctan";
             this.Arctan.UseVisualStyleBackColor = true;
+            this.Arctan.Click += new System.EventHandler(this.OneArgumentButtonClick);
             // 
             // Log2
             // 
@@ -245,6 +256,7 @@
             this.Log2.TabIndex = 20;
             this.Log2.Text = "Log2";
             this.Log2.UseVisualStyleBackColor = true;
+            this.Log2.Click += new System.EventHandler(this.OneArgumentButtonClick);
             // 
             // Log10
             // 
@@ -254,6 +266,7 @@
             this.Log10.TabIndex = 21;
             this.Log10.Text = "Log10";
             this.Log10.UseVisualStyleBackColor = true;
+            this.Log10.Click += new System.EventHandler(this.OneArgumentButtonClick);
             // 
             // teninx
             // 
@@ -263,6 +276,7 @@
             this.teninx.TabIndex = 22;
             this.teninx.Text = "10^x";
             this.teninx.UseVisualStyleBackColor = true;
+            this.teninx.Click += new System.EventHandler(this.OneArgumentButtonClick);
             // 
             // minusx
             // 
@@ -272,6 +286,7 @@
             this.minusx.TabIndex = 23;
             this.minusx.Text = "-x";
             this.minusx.UseVisualStyleBackColor = true;
+            this.minusx.Click += new System.EventHandler(this.OneArgumentButtonClick);
             // 
             // Singrad
             // 
@@ -281,6 +296,7 @@
             this.Singrad.TabIndex = 24;
             this.Singrad.Text = "Singrad";
             this.Singrad.UseVisualStyleBackColor = true;
+            this.Singrad.Click += new System.EventHandler(this.OneArgumentButtonClick);
             // 
             // Cosgrad
             // 
@@ -290,6 +306,7 @@
             this.Cosgrad.TabIndex = 25;
             this.Cosgrad.Text = "Cosgrad";
             this.Cosgrad.UseVisualStyleBackColor = true;
+            this.Cosgrad.Click += new System.EventHandler(this.OneArgumentButtonClick);
             // 
             // Arcsingrad
             // 
@@ -299,6 +316,7 @@
             this.Arcsingrad.TabIndex = 26;
             this.Arcsingrad.Text = "Arcsingrad";
             this.Arcsingrad.UseVisualStyleBackColor = true;
+            this.Arcsingrad.Click += new System.EventHandler(this.OneArgumentButtonClick);
             // 
             // Form1
             // 
