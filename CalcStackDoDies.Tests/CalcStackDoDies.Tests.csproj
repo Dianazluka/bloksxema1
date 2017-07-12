@@ -43,6 +43,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OneArgument\CosgradClasTests.cs" />
+    <Compile Include="OneArgument\CtanCalcTests.cs" />
+    <Compile Include="OneArgument\ExpCalcTests.cs" />
+    <Compile Include="OneArgument\lnCalcTests.cs" />
+    <Compile Include="OneArgument\Log10CalcTests.cs" />
+    <Compile Include="OneArgument\Log2CalcTests.cs" />
+    <Compile Include="OneArgument\MinusxCalcTests.cs" />
+    <Compile Include="OneArgument\ModulCalcTests.cs" />
+    <Compile Include="OneArgument\OnedivxCalcTests.cs" />
+    <Compile Include="OneArgument\SinCalcTests.cs" />
+    <Compile Include="OneArgument\SingradCalcTests.cs" />
+    <Compile Include="OneArgument\SqrCalcTests.cs" />
+    <Compile Include="OneArgument\TanCalcTests.cs" />
+    <Compile Include="OneArgument\TeninxCalcTests.cs" />
+    <Compile Include="OneArgument\TwoinxCalcTests.cs" />
+    <Compile Include="OneArgument\ArcsinCalcTests.cs" />
+    <Compile Include="OneArgument\ArcsingradCalcTests.cs" />
+    <Compile Include="OneArgument\CosCalcTests.cs" />
+    <Compile Include="OneArgument\ArctanCalcTests.cs" />
     <Compile Include="OneArgument\ArccosCalcTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TwoArgument\DivCalcTests.cs" />

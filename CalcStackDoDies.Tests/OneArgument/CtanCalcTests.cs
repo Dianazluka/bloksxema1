@@ -5,14 +5,14 @@ using NUnit.Framework;
 namespace CalcStackDoDies.Tests.OneArgument
 {
     [TestFixture]
-    public class ArccosCalcTests
+    public class CtanCalcTests
     {
-        [TestCase(1, 0)]
-        [TestCase(-1, Math.PI)]
+        [TestCase(0, 3/2*Math.PI)]
+        [TestCase(1, Math.PI/4)]
         [TestCase(0, Math.PI / 2)]
-        public void DivCalcTest(double first, double expected)
+        public void CtanCalcTest(double first, double expected)
         {
-            var calc = new ArccosCalc();
+            var calc = new CtanCalc();
             double result = calc.Calculate(first);
             Assert.AreEqual(expected, result, 0.001);
         }
