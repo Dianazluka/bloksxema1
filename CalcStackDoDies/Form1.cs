@@ -14,19 +14,33 @@ namespace CalcStackDoDies
 
         private void TwoArgumentButtonClick(object sender, EventArgs e)
         {
-            double first = Convert.ToDouble(Input1.Text);
-            double second = Convert.ToDouble(Input2.Text);
-            ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator(((Button) sender).Name);
-            double result = calculator.Calculate(first, second);
-            Result.Text = Convert.ToString(result);
+            try
+            {
+                double first = Convert.ToDouble(Input1.Text);
+                double second = Convert.ToDouble(Input2.Text);
+                ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator(((Button) sender).Name);
+                double result = calculator.Calculate(first, second);
+                Result.Text = Convert.ToString(result);
+            }
+            catch (Exception exc)
+            {
+                MessageBox.Show("Возникла ошибка:" + exc.Message);
+            }
         }
 
         private void OneArgumentButtonClick(object sender, EventArgs e)
         {
-            double first = Convert.ToDouble(Input1.Text);
-            IOneArgumentsCalculator calculator = OneArgumentsFactory.CreateCalculator(((Button)sender).Name);
-            double result = calculator.Calculate(first);
-            Result.Text = Convert.ToString(result);
+            try
+            {
+                double first = Convert.ToDouble(Input1.Text);
+                IOneArgumentsCalculator calculator = OneArgumentsFactory.CreateCalculator(((Button) sender).Name);
+                double result = calculator.Calculate(first);
+                Result.Text = Convert.ToString(result);
+            }
+            catch (Exception exc)
+            {
+                MessageBox.Show("Возникла ошибка:" + exc.Message);
+            }
         }
 
 
