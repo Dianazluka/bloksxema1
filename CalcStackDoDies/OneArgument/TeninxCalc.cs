@@ -11,7 +11,7 @@ namespace CalcStackDoDies.OneArgument
         /// A method that calculates a given power of the number ten
         /// </summary>
         /// <param name="first">Parameter that is entered by the user</param>
-        /// <returns></returns>
+        /// <returns>Calculated value</returns>
         public double Calculate(double first)
         {
             return Math.Pow(10, first);

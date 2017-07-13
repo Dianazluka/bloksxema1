@@ -8,7 +8,7 @@ namespace CalcStackDoDies.TwoArgument
         /// The method returns an instance of the class ITwoArgumentsCalculator
         /// </summary>
         /// <param name="calculatorName">calculator name</param>
-        /// <returns></returns>
+        /// <returns>instance of the class</returns>
         public static ITwoArgumentsCalculator CreateCalculator(string calculatorName)
         {
             switch (calculatorName)

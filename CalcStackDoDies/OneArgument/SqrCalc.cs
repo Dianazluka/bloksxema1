@@ -9,7 +9,7 @@
         /// Method that calculates the square of a given number
         /// </summary>
         /// <param name="first">Parameter that is entered by the user</param>
-        /// <returns></returns>
+        /// <returns>Calculated value</returns>
         public double Calculate(double first)
         {
             return first * first;

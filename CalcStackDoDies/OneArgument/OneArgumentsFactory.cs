@@ -8,7 +8,7 @@ namespace CalcStackDoDies.OneArgument
         /// The method returns an instance of the class IOneArgumentsCalculator
         /// </summary>
         /// <param name="calculatorName"></param>
-        /// <returns></returns>
+        /// <returns>instance of the class</returns>
         public static IOneArgumentsCalculator CreateCalculator(string calculatorName)
         {
             switch (calculatorName)

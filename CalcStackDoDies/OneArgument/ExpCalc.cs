@@ -11,7 +11,7 @@ namespace CalcStackDoDies.OneArgument
         /// Method for raising to the power
         /// </summary>
         /// <param name="first">Parameter that is entered by the user</param>
-        /// <returns></returns>
+        /// <returns>Calculated value</returns>
         public double Calculate(double first)
         {
             return Math.Exp(first);

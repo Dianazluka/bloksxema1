@@ -12,7 +12,7 @@ namespace CalcStackDoDies.OneArgument
         /// Method that computes the arc cosine of the angle
         /// </summary>
         /// <param name="first">Parameter that is entered by the user</param>
-        /// <returns></returns>
+        /// <returns>Calculated value</returns>
         public double Calculate(double first)
         {
             if (first > 1 || first < -1)

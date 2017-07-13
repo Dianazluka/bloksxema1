@@ -11,7 +11,7 @@ namespace CalcStackDoDies.OneArgument
         /// Method that calculates the number module
         /// </summary>
         /// <param name="first">Parameter that is entered by the user</param>
-        /// <returns></returns>
+        /// <returns>Calculated value</returns>
         public double Calculate(double first)
         {
             return Math.Abs(first);

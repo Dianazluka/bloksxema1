@@ -12,7 +12,7 @@ namespace CalcStackDoDies.OneArgument
         /// Method that translates from radians to degrees
         /// </summary>
         /// <param name="first"></param>
-        /// <returns></returns>
+        /// <returns>Calculated value</returns>
         public double Calculate(double first)
         {
             return first / Math.PI * 180;

@@ -10,7 +10,7 @@
         /// </summary>
         /// <param name="first">this is first argument</param>
         /// <param name="second">thisis second argument</param>
-        /// <returns></returns>
+        /// <returns>Calculated value</returns>
         public double Calculate(double first, double second)
         {
             return first + second;

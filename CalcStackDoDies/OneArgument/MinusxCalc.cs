@@ -9,7 +9,7 @@
         /// A method that calculates a number opposite to a given
         /// </summary>
         /// <param name="first">Parameter that is entered by the user</param>
-        /// <returns></returns>
+        /// <returns>Calculated value</returns>
         public double Calculate(double first)
         {
             return -first;

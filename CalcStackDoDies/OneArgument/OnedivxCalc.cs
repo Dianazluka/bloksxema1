@@ -11,7 +11,7 @@ namespace CalcStackDoDies.OneArgument
         /// A method that calculates the quotient of a unit by a given number
         /// </summary>
         /// <param name="first">Parameter that is entered by the user</param>
-        /// <returns></returns>
+        /// <returns>Calculated value</returns>
         public double Calculate(double first)
         {
             if (first.Equals(0))
