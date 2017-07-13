@@ -23,7 +23,7 @@ namespace CalcStackDoDies.OneArgument
                     return new CtanCalc();
                 case "Exp":
                     return new ExpCalc();
-                case "In":
+                case "Ln":
                     return new LnCalc();
                 case "Sqr":
                     return new SqrCalc();
@@ -47,12 +47,12 @@ namespace CalcStackDoDies.OneArgument
                     return new Log10Calc();
                 case "Log2":
                     return new Log2Calc();
-                case "Mimus":
+                case "Minusx":
                     return new MinusxCalc();
                 case "Singrad":
                     return new SingradCalc();
                 case "Teninx":
-                    return new TwoinxCalc();
+                    return new TeninxCalc();
                 default:
                     throw new Exception("Неизвестная операция");
             }
